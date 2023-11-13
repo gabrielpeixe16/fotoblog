@@ -18,6 +18,8 @@
   --color-base-gray-500: hsl(0, 0%, 24%);
   --color-base-gray-900: hsl(var(--hue), 60%, 20%);
 }
+ 
+/* Body base */
 
 body{
   font-size: 1.6rem;
@@ -42,6 +44,7 @@ main{
   overflow-y: scroll;
 }
 
+/* navigation */
 
 header,
 nav,
@@ -99,7 +102,7 @@ header form{
   border-radius: 50%;
 }
 
-/* Galeria */
+/* gallery styles */
 
 main h1{
   padding-top: 1.6rem;
@@ -172,7 +175,7 @@ footer p {
   padding: 1.6rem;
 }
 
-/* animações */
+/* animations */
 
 header{
   --startY: -100%;
